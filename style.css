@@ -36,3 +36,55 @@ p {
 table {
     line-height: 2em;
 }
+
+body{
+    min-height 50em;
+  }
+  
+  .menu {
+    background: #999999;
+    position: sticky;
+    top: 0;
+  }
+  
+  #blog {
+    background: #bcbcbc;
+    position: back; 
+    top: 50px;
+    left: 50px; 
+  }
+   
+  .img-container{
+    background: black;
+    height: 200px; 
+    width: 200px; 
+    float: left; 
+  }
+  
+  header{
+    background: #222; 
+  }
+  
+  section{
+    background: #ccc; 
+    display: flex;
+  }
+  
+  aside{
+    background: lightblue;
+  }
+  
+  div {
+    background: #FFCCCB;
+    flex: 5;
+  }
+  
+  article{
+    background: #999; 
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  footer{
+    background: #555;
+  }
